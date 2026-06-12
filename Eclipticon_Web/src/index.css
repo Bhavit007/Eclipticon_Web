@@ -34,7 +34,7 @@
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
-    --bg: #16171d;
+    --bg:rgb(59, 59, 59);
     --border: #2e303a;
     --code-bg: #1f2028;
     --accent: #c084fc;
@@ -108,4 +108,15 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+@font-face {
+  font-family: 'Resotho';
+  src: url('/fonts/Resotho-Extralight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Resotho', sans-serif;
 }
