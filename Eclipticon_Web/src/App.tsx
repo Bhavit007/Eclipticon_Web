@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./Components/BlogButton";
+import Card from "./Components/BlogCard";
 import Explore_button from "./Components/Explore_button";
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
       </>
       <>
         <Explore_button />
+      </>
+      <>
+        <Card />
       </>
     </div>
   );

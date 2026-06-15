@@ -1,8 +1,9 @@
-import styles from "./Card1.module.css";
+import styles from "./BlogCard.module.css";
 
 const Card = () => {
   return (
     <div className={styles.card}>
+      <div className={styles.card__layer}></div>
       <div className={styles.card__content}>
         <div className={styles["card__text"]}>
           <h1 className={styles["card__title"]}>
@@ -14,10 +15,13 @@ const Card = () => {
             Frenley more human.
           </p>
         </div>
-        <div className={styles["card__link_container"]}>
+        <div className={styles["card__link-container"]}>
+          <img
+            className={styles["card__rectangle"]}
+            src="/icon/ic-rectangle.svg"
+          />
           <p className={styles["card__link"]}>
-            <img src="/icon/ic-rectangle.svg" />
-            Read More <img src="/icon/ic-white-right-arrow.svg" />
+            Read More <span>&#8594;</span>
           </p>
         </div>
       </div>
