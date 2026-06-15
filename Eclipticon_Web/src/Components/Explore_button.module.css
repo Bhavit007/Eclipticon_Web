@@ -1,7 +1,7 @@
 .button{
   border-radius: 90px;
   background-color: transparent;
-  border:0.2px solid #E5E5E5;
+  border:0.2px solid #F7F5EE;
   width: 254.61px;
   height: 48px;
   padding-left: 8px;
@@ -18,13 +18,13 @@
 
 
 .button__inner{
-  border:0.5px solid #E5E5E5;
+  border:0.5px solid #F7F5EE;
   border-radius: 96px;
   background-color: transparent;
   width: 198px;
   height: 32px;
   border-radius: 42px;
-  border:0.2px solid #E5E5E5;
+  border:0.2px solid #F7F5EE;
   padding-left: 8px;
   padding-right: 16px;
   padding-top: 8px;
@@ -34,15 +34,15 @@
 }
 
 .button__text{
-  color: #E5E5E5;
+  color: #F7F5EE;
   width: 166px;
   height: 16px;
   font-family: 'Resotho', sans-serif;
   font-size: 14px;
 
-  font-style: Extralight;
+  font-style: normal;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   
 }
 

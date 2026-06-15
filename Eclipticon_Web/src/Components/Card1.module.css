@@ -1,6 +1,6 @@
 .card{
   background: #1A1A1A;
-  border:0.5px solid #E5E5E5;
+  border:0.5px solid #F7F5EE;
   width: 351px;
   height: 496px;
   border-radius: 20px;
@@ -9,6 +9,7 @@
   background-size: cover;
   position: relative;
   overflow: hidden;
+
 }
 
 .card::before{
@@ -44,11 +45,12 @@
   border: 0.5px;
   font-family: 'Resotho', sans-serif;
   font-weight: 200;
-  font-style: Extralight;
+  font-style: normal;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 5%;
   color:#F7F5EE;
+  align-self: left;
 
 }
 
@@ -57,11 +59,13 @@
   height: 85px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-style: Regular;
+  font-style: normal;
   font-size: 14px;
   line-height: 100%;
-  letter-spacing: 0%;
-  color:#E5E5E5;
+  letter-spacing: 0;
+  color:#F7F5EE;
+
+
 
 }
 
@@ -83,11 +87,12 @@
   height: 14px;
   font-family: 'Resotho', sans-serif;
   font-weight: 200;
-  font-style: Extralight;
+  font-style: normal;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color:#F7F5EE;
-
-  align-items: center;
+  
+  
 }
+

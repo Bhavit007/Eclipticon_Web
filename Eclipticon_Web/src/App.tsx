@@ -1,19 +1,11 @@
 import "./App.css";
-import Button from "./Components/Button";
-import Explore_button from "./Components/Explore_button";
-import Card from "./Components/Card1";
+import Button from "./Components/BlogButton";
 
 function App() {
   return (
     <div className="App">
       <>
         <Button />
-      </>
-      <>
-        <Explore_button />
-      </>
-      <>
-        <Card />
       </>
     </div>
   );

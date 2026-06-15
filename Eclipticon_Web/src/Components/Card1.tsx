@@ -16,7 +16,8 @@ const Card = () => {
         </div>
         <div className={styles["card__link_container"]}>
           <p className={styles["card__link"]}>
-            Read More <img src="/icon/ic-right-arrow.svg" />
+            <img src="/icon/ic-rectangle.svg" />
+            Read More <img src="/icon/ic-white-right-arrow.svg" />
           </p>
         </div>
       </div>
