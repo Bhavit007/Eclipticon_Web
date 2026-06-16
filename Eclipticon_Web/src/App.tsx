@@ -1,20 +1,10 @@
 import "./App.css";
-import Button from "./Components/BlogButton";
-import Card from "./Components/BlogCard";
-import Explore_button from "./Components/Explore_button";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <>
-        <Button />
-      </>
-      <>
-        <Explore_button />
-      </>
-      <>
-        <Card />
-      </>
+      <Navbar />
     </div>
   );
 }
