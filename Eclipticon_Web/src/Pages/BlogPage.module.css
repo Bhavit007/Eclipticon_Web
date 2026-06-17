@@ -1,0 +1,20 @@
+.blog-page{
+  background-image: url('/images/BlogPage-bg.png');
+  background-repeat: no-repeat;
+}
+
+
+.navbar{
+  padding: 0;
+  margin: 0;
+}
+
+.hero{
+  padding: 0;
+
+  margin-top: 297px;
+  display:flex;
+  justify-content:center;
+
+
+}
