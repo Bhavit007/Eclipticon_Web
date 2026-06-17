@@ -118,5 +118,5 @@ code {
 }
 
 body {
-  font-family: 'Resotho', sans-serif;
+  font-family: var(--font-heading);
 }

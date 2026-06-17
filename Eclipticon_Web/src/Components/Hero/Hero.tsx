@@ -1,5 +1,5 @@
 import styles from "./Hero.module.css";
-import Explore_button from "./Explore_button";
+import Explore_button from "../Explore_Button/Explore_button";
 
 const Hero = () => {
   return (

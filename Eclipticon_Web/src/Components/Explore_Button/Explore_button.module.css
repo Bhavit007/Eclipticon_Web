@@ -1,7 +1,7 @@
 .button{
   border-radius: 90px;
   background-color: transparent;
-  border:0.2px solid #F7F5EE;
+  border:0.2px solid var(--color-primary);
   border-width: 0.2px;
   width: 254.60800170898438px;
   height: 48px;
@@ -17,14 +17,14 @@
 }
 
 .button__inner{
-  border:0.5px solid #F7F5EE;
+  border:0.5px solid var(--color-primary);
   border-radius: 96px;
   background-color: transparent;
   width: 198px;
   height: 32px;
   border-width: 0.2px;
 
-  border:0.2px solid #F7F5EE;
+  border:0.2px solid var(--color-primary);
   padding-left: 8px;
   padding-right: 16px;
   padding-top: 8px;
@@ -42,11 +42,11 @@
 
 
 .button__text{
-  color: #F7F5EE;
+  color: var(--color-primary);
   font-weight: 200;
   width: 166px;
   height: 16px;
-  font-family: 'Resotho', sans-serif;
+  font-family: var(--font-heading);
   font-size: 14px;
   text-align: center;
   font-style: normal;
@@ -60,7 +60,7 @@
   width: 16.61px;
   height: 5.62px;
   align-self: center;
-  color: #F7F5EE;
+  color: var(--color-primary);
 
 }
 

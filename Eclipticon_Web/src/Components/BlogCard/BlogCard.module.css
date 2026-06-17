@@ -1,6 +1,6 @@
 .card{
-  background: #1A1A1A;
-  border:0.5px solid linear-gradient(#F7F5EE,#212022);
+  background: var(--color-card);
+  border:0.5px solid linear-gradient(var(--color-primary),#212022);
   width: 351px;
   height: 496px;
   border-radius: 20px;
@@ -42,15 +42,15 @@
   width: 282px;
   height: 76px;
   border: 0.5px;
-  font-family: 'Resotho', sans-serif;
+  font-family: var(--font-heading);
   font-weight: 200;
   font-style: normal;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 5%;
-  color:#F7F5EE;
+  color: var(--color-primary);
   align-self: left;
-  border-color: #F7F5EE;
+  border-color: var(--color-primary);
   margin: 0;
   padding: 0;
 
@@ -59,13 +59,13 @@
 .card__description{
   width: 282px;
   height: 85px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-body);
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 100%;
   letter-spacing: 0;
-  color:#F7F5EE;
+  color: var(--color-primary);
 }
 
 .card__layer{
@@ -99,19 +99,19 @@
   height: 14;
   transform:rotate(0 deg);
   opacity: 1;
-  color:#F7F5EE;
+  color: var(--color-primary);
   justify-content: flex-start;
 }
 
 .card__link{
   width: 105px;
   height: 14px;
-  font-family: 'Resotho', sans-serif;
+  font-family: var(--font-heading);
   font-weight: 200;
   font-style: normal;
   font-size: 12px;
   line-height: 100%;
   letter-spacing: 0;
-  color:#F7F5EE;
+  color: var(--color-primary);
   text-align: center;    
 }

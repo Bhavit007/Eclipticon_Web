@@ -1,10 +1,11 @@
 .navbar{
   display: flex;
-  width: 1280px;
+  width: 100%;
+  max-width:1280px;
   height: 98px;
   transform: rotate(0 deg);
   opacity: 1;
-  background: var(--DEPTH10, #2120221A);
+  background: var(--color-background);
   backdrop-filter: blur(15px);
   align-items: center;
 
@@ -13,15 +14,15 @@
 .navbar__container{
   width: 1150px;
   height: 43.26416015625px;
-
   align-items: center;
-  top: 30px;
-  left: 65px;
+  margin-top: 30px;
+  margin-bottom: 24.74px;
   justify-content: space-between;
   transform: rotate(0 deg);
   opacity: 1;
   display: flex;
-
+  padding-left: 64px;
+  padding-right: 64px;
 
 }
 
@@ -31,36 +32,32 @@
   height: 43.26416015625px;
   transform: rotate(0 deg);
   opacity: 1;
-  color: #F7F5EE;
+  color: var(--color-primary);
   display: flex;
   align-items: center;
-  
-
+  position: relative;
 
 }
 
 .navbar__logo-text{
   width: 142px;
   height: 25px;
-  
-  margin-left: 55.99px;
+  margin-left: 19.84px;
   transform: rotate(0 deg);
   opacity: 1;
-  font-family: 'Resotho', sans-serif;
+  font-family: var(--font-heading);
   font-weight: 200;
   font-style: normal;
   font-size: 21.18px;
-
   line-height: 100%;
   letter-spacing: 0;
-  color: #F7F5EE;
-
-
-
+  color: var(--color-primary);
 }
 
 
 .navbar__logo-icon{
+
+
   width: 36.154998779296875px;
   height: 43.26416015625px;
   transform: rotate(0 deg);
@@ -71,40 +68,37 @@
 .navbar__links{
   width: 314px;
   height: 20px;
-
-
   gap: 36px;
   transform: rotate(0 deg);
   opacity: 1;
-
   display: flex;
   flex-direction: row;
   list-style: none;
   padding: 0;
 
-
-
 }
 
 .navbar__link{
-  width: 73px;
-  height: 20px;
   transform: rotate(0 deg);
   opacity: 1;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-body);
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-
   line-height: 100%;
   letter-spacing: 0;
   text-align: center;
   vertical-align: bottom;
-  color: #F7F5EE;
-
-
+  color: var(--color-primary);
 }
 
+.navbar__resource-arrow{
+  width: 12px;
+  height: 14px;
+  opacity: 1;
+  margin-left: 8px;
+
+}
 
 
 

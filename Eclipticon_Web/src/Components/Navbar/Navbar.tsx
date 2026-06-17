@@ -12,20 +12,33 @@ const Navbar = () => {
         </div>
         <ul className={styles.navbar__links}>
           <li>
-            <a className={styles.navbar__link}>Products</a>
+            <a
+              className={styles.navbar__link}
+              style={{ height: "73px", width: "20px" }}
+            >
+              Products
+            </a>
           </li>
           <li>
-            <a className={styles.navbar__link}>
-              Resources{" "}
+            <a
+              className={styles.navbar__link}
+              style={{ height: "108px", width: "20px" }}
+            >
+              Resources
               <img
                 src="/icon/ic-resources.svg"
-                style={{ width: 12, height: 14, opacity: 1 }}
-                alt="Resources"
+                className={styles["navbar__resource-arrow"]}
+                alt=""
               />
             </a>
           </li>
           <li>
-            <a className={styles.navbar__link}>Services</a>
+            <a
+              className={styles.navbar__link}
+              style={{ height: "66px", width: "20px" }}
+            >
+              Services
+            </a>
           </li>
         </ul>
       </div>
