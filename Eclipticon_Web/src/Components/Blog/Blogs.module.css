@@ -1,0 +1,150 @@
+.blogs{
+  width: 906px;
+  height: 1079px;
+  top: 988px;
+  left: 192px;
+  gap: 64px;
+  transform: rotate(0 deg);
+  opacity: 1;
+  display:block;
+
+}
+
+.blog_title_box{
+  transform: rotate(0 deg);
+  opacity: 1;
+
+  margin-bottom: 64px;
+
+
+}
+
+.blog_title{
+  font-family: var(--font-heading) !important;
+  font-weight: 200 !important;
+  font-style: normal !important;
+  font-size: 24px !important;
+  line-height: 100% !important;
+  letter-spacing: 0 !important;
+  text-align: center !important;
+  color: var(--color-primary) !important;
+}
+
+
+.blogs_cards{
+  width: 906px;
+  height: 987px;
+  gap: 24px;
+  transform: rotate(0 deg);
+  opacity: 1;
+  
+
+}
+
+.blog_card{
+  width: 906px;
+  height: 313px;
+  gap: 64px;
+  transform: rotate(0 deg);
+  opacity: 1;
+  border-bottom-width: 1px;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  display: flex;
+  border-bottom: 1px solid var(--LACE10, #F7F5EE1A);
+  margin-bottom: 24px;
+  padding:0;
+
+
+}
+
+.blog_image{
+  width: 320px;
+  height: 241px;
+  transform: rotate(0 deg);
+  opacity: 1;
+  border-radius: 10px;
+
+}
+
+.blog_content{
+  width: 522px;
+  height: 241px;
+  justify-content: space-between;
+  transform: rotate(0 deg);
+  opacity: 1;
+
+}
+
+.blog_date{
+  width: 163px;
+  height: 20px;
+  transform: rotate(0 deg);
+  opacity: 1;
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-style: Light;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 24px;
+
+
+
+}
+
+.blog_heading{
+  width: 522px;
+  height: 38px;
+  transform: rotate(0 deg);
+  opacity: 1;
+  border-width: 0.3px;
+  font-family: var(--font-heading);
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+
+  line-height: 100%;
+  letter-spacing: 10%;
+  color: var(--color-primary);
+  padding:0;
+  margin:0;
+  margin-bottom: 16px;
+  
+  
+
+}
+
+.blog_description{
+  width: 522px;
+  height: 51px;
+  transform: rotate(0 deg);
+  opacity: 1;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--LACE50, #F7F5EE80);
+  padding: 0;
+  
+
+
+
+}
+
+.read_more{
+  width: 128px;
+  height: 26px;
+  gap: 10px;
+  transform: rotate(0 deg);
+  opacity: 1;
+  padding-top: 6px;
+  padding-right: 12px;
+  padding-bottom: 6px;
+  border-radius: 96px;
+  margin-top: 66px;
+
+
+}

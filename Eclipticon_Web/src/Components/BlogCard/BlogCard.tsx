@@ -1,4 +1,5 @@
 import styles from "./BlogCard.module.css";
+import Read_more from "./ReadMore/Read_more";
 
 const Card = () => {
   return (
@@ -15,15 +16,7 @@ const Card = () => {
             Frenley more human.
           </p>
         </div>
-        <div className={styles["card__link-container"]}>
-          <img
-            className={styles["card__rectangle"]}
-            src="/icon/ic-rectangle.svg"
-          />
-          <p className={styles["card__link"]}>
-            Read More <span>&#8594;</span>
-          </p>
-        </div>
+        <Read_more />
       </div>
     </div>
   );

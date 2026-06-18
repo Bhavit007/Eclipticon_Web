@@ -1,6 +1,7 @@
 import Navbar from "../Components/Navbar/Navbar";
 import Hero from "../Components/Hero/Hero";
 import styles from "./BlogPage.module.css";
+import Blogs from "../Components/Blog/Blogs";
 
 const BlogPage = () => {
   return (
@@ -10,6 +11,9 @@ const BlogPage = () => {
       </div>
       <div className={styles["hero"]}>
         <Hero />
+      </div>
+      <div className={styles["blogs"]}>
+        <Blogs />
       </div>
     </div>
   );
