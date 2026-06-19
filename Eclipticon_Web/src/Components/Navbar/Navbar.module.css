@@ -27,43 +27,7 @@
 }
 
 
-.navbar__logo{
-  width: 197.9912109375px;
-  height: 43.26416015625px;
-  transform: rotate(0 deg);
-  opacity: 1;
-  color: var(--color-primary);
-  display: flex;
-  align-items: center;
-  position: relative;
 
-}
-
-.navbar__logo-text{
-  width: 142px;
-  height: 25px;
-  margin-left: 19.84px;
-  transform: rotate(0 deg);
-  opacity: 1;
-  font-family: var(--font-heading);
-  font-weight: 200;
-  font-style: normal;
-  font-size: 21.18px;
-  line-height: 100%;
-  letter-spacing: 0;
-  color: var(--color-primary);
-}
-
-
-.navbar__logo-icon{
-
-
-  width: 36.154998779296875px;
-  height: 43.26416015625px;
-  transform: rotate(0 deg);
-  opacity: 1;
-
-}
 
 .navbar__links{
   width: 314px;

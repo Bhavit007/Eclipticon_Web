@@ -24,3 +24,11 @@
   justify-content:center;
   margin-top: 988px;
 }
+
+.footer{
+  display:flex;
+  justify-content:center;
+  margin-top: 36px;
+  
+
+}

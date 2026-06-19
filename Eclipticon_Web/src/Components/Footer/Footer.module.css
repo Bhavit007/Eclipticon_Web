@@ -1,0 +1,156 @@
+.footer{
+  display:flex;
+  margin-top: 36px;
+  justify-content:center;
+  max-width: 1281px;
+  height: 601px;
+  top: 2103px;
+  transform: rotate(0 deg);
+  opacity: 1;
+  padding-top: 180px;
+  padding-bottom: 46px;
+
+
+}
+
+.footer_box{
+  display:flex;
+  flex-direction: column;
+  width: 988.1162109375px;
+  height: 375px;
+  top: 180px;
+  left: 146px;
+  gap: 48px;
+  transform: rotate(0 deg);
+  opacity: 1;
+  padding:0;
+  margin:0;
+  gap: 48px;
+
+}
+
+.footer_title{
+
+  padding:0;
+
+  width: 988.1162109375px;
+  height: 375px;
+  top: 180px;
+  left: 146px;
+  gap: 48px;
+  transform: rotate(0 deg);
+  opacity: 1;
+
+}
+
+.footer_heading{
+  font-family: var(--font-heading);
+  font-weight: 200;
+  font-style: normal;
+  font-size: 88px;
+
+  line-height: 100%;
+  letter-spacing: 28%;
+  text-align: center;
+
+}
+
+.footer_content{
+  width: 988.1162109375px;
+  height: 224px;
+  justify-content: space-between;
+  transform: rotate(0 deg);
+  opacity: 1;
+  display: flex;
+
+  padding: 0;
+
+
+}
+
+.footer_icons{
+
+
+  height: 103.26416015625px;
+  gap: 36px;
+  transform: rotate(0 deg);
+  opacity: 1;
+
+}
+
+.footer_links{
+  width: 504px;
+  height: 144px;
+  gap: 64px;
+  transform: rotate(0 deg);
+  opacity: 1;
+  display: flex;
+
+}
+
+.footer_link_column{
+  width: 112px;
+  height: 144px;
+  gap: 32px;
+  transform: rotate(0 deg);
+  opacity: 1;
+
+}
+
+.footer_link_title{
+    width: 112px;
+    height: 20px;
+    transform: rotate(0 deg);
+    opacity: 1;
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-style: 'SemiBold';
+    font-size: 16px;
+  
+    line-height: 100%;
+    letter-spacing: 0;
+    color: var(--color-primary);
+    margin-bottom:32px;
+
+
+
+}
+
+.footer_link{
+  width: 112px;
+  height: 20px;
+  transform: rotate(0 deg);
+  opacity: 1;
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: var(--color-primary);
+
+}
+
+.footer_logo{
+  width: 197.9912109375px;
+  height: 43.26416015625px;
+  transform: rotate(0 deg);
+  opacity: 1;
+
+}
+
+.footer_icon{
+  width: 24px;
+  height: 24px;
+  transform: rotate(0 deg);
+  opacity: 1;
+  margin-right: 34px;
+  margin-top: 36px;
+
+}
+
+
+
+

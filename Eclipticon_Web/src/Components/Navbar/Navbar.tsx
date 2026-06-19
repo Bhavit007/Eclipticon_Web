@@ -1,15 +1,11 @@
 import styles from "./Navbar.module.css";
+import Eclipticon from "./EclipticonLogo/eclipticon";
+
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.navbar__container}>
-        <div className={styles.navbar__logo}>
-          <img
-            className={styles["navbar__logo-icon"]}
-            src="/icon/ic-eclipticon.svg"
-          />
-          <h1 className={styles["navbar__logo-text"]}>Eclipticon</h1>
-        </div>
+        <Eclipticon />
         <ul className={styles.navbar__links}>
           <li>
             <a
