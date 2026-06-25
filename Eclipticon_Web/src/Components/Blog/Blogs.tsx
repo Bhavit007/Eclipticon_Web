@@ -33,30 +33,37 @@ const Blogs = () => {
   ];
 
   return (
-    <div className={styles.blogs}>
-      <div className={styles.blog_title_box}>
-        <h1 className={styles.blog_title}>Recent Blogs</h1>
-      </div>
-      <div className={styles.blog_cards}>
-        {blogData.map((blog) => (
-          <div className={styles.blog_card} key={blog.id}>
-            <div className={styles.blog_image}>
-              <img src={blog.img} alt="Blog Image" />
-            </div>
-            <div className={styles.blog_content}>
-              <div className={styles.blog_text}>
-                <p className={styles.blog_date}>{blog.date}</p>
-                <h1 className={styles.blog_heading}>{blog.heading}</h1>
-                <p className={styles.blog_description}>{blog.description}</p>
+    <>
+      <div className={styles.blogs}>
+        <div className={styles.blog_title_box}>
+          <h1 className={styles.blog_title}>Recent Blogs</h1>
+        </div>
+        <div className={styles.blog_cards}>
+          {blogData.map((blog) => (
+            <div className={styles.blog_card} key={blog.id}>
+              <div className={styles.blog_image}>
+                <img src={blog.img} alt="Blog Image" />
               </div>
-              <div className={styles.read_more}>
-                <Read_more />
+              <div className={styles.blog_content}>
+                <div className={styles.blog_text}>
+                  <p className={styles.blog_date}>{blog.date}</p>
+                  <h1 className={styles.blog_heading}>{blog.heading}</h1>
+                  <p className={styles.blog_description}>{blog.description}</p>
+                </div>
+                <div className={styles.read_more}>
+                  <Read_more />
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
+        <div className={styles.gotoTop}>
+          <button className={styles.gotoTopButton}>
+            <img src="./icon/ic-gototop.svg" alt="Go to Top" />
+          </button>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

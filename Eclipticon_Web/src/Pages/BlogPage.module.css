@@ -1,5 +1,6 @@
 .blog-page{
   background-image: url('/images/BlogPage-bg.png');
+    background: linear-gradient(180deg, rgba(33, 32, 34, 0.1) 0%, rgba(71, 100, 170, 0.1) 50%, rgba(33, 32, 34, 0.1) 100%);
   background-repeat: no-repeat;
 }
 
@@ -23,12 +24,19 @@
   display:flex;
   justify-content:center;
   margin-top: 988px;
+  
+
+
 }
 
 .footer{
-  display:flex;
+  display:block;
   justify-content:center;
   margin-top: 36px;
+  padding-bottom: 46px;
+
+
+
   
 
 }

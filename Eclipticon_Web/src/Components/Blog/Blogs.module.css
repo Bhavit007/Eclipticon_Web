@@ -1,4 +1,5 @@
 .blogs{
+
   width: 906px;
   height: 1079px;
   top: 988px;
@@ -7,6 +8,7 @@
   transform: rotate(0 deg);
   opacity: 1;
   display:block;
+
 
 }
 
@@ -145,6 +147,32 @@
   padding-bottom: 6px;
   border-radius: 96px;
   margin-top: 66px;
+
+
+}
+
+.gotoTop{
+  width: 76px;
+height: 705px;
+top: 1400px;
+left: 1140px;
+transform: rotate(0 deg);
+opacity: 1;
+
+}
+
+.gotoTopButton{
+  width: 42px;
+height: 42px;
+top: 643px;
+left: 15px;
+transform: rotate(0 deg);
+opacity: 1;
+border-width: 1.5px;
+background: var(--LACE10, #F7F5EE1A);
+border: 1.5px solid #F7F5EE !important;
+border-radius: 50%;
+backdrop-filter: blur(15px);
 
 
 }
