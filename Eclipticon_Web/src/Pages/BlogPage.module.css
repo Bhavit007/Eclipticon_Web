@@ -1,7 +1,10 @@
 .blog-page{
   background-image: url('/images/BlogPage-bg.png');
-    background: linear-gradient(180deg, rgba(33, 32, 34, 0.1) 0%, rgba(71, 100, 170, 0.1) 50%, rgba(33, 32, 34, 0.1) 100%);
+  background: linear-gradient(180deg, rgba(33, 32, 34, 0.1) 0%, rgba(71, 100, 170, 0.1) 50%, rgba(33, 32, 34, 0.1) 100%);
   background-repeat: no-repeat;
+  background-size:cover;
+  min-height:100vh;
+
 }
 
 
@@ -10,12 +13,18 @@
   margin: 0;
 }
 
-.hero{
-  padding: 0;
+.hero-section{
 
-  margin-top: 297px;
+
+  margin-top: 140px;
   display:flex;
   justify-content:center;
+  width:100%;
+  align-items:center;
+
+  padding:180px 20px 100px;
+  border:2px solid red;
+
 
 
 }

@@ -8,18 +8,10 @@ const Navbar = () => {
         <Eclipticon />
         <ul className={styles.navbar__links}>
           <li>
-            <a
-              className={styles.navbar__link}
-              style={{ height: "73px", width: "20px" }}
-            >
-              Products
-            </a>
+            <a className={styles.navbar__link}>Products</a>
           </li>
           <li>
-            <a
-              className={styles.navbar__link}
-              style={{ height: "108px", width: "20px" }}
-            >
+            <a className={styles.navbar__link}>
               Resources
               <img
                 src="/icon/ic-resources.svg"
@@ -29,14 +21,11 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a
-              className={styles.navbar__link}
-              style={{ height: "66px", width: "20px" }}
-            >
-              Services
-            </a>
+            <a className={styles.navbar__link}>Services</a>
           </li>
         </ul>
+
+        <img src="/icon/ic-menu.svg" className={styles.navbar__menuButton} />
       </div>
     </nav>
   );

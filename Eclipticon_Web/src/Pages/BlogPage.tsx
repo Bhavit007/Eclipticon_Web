@@ -10,7 +10,7 @@ const BlogPage = () => {
       <div className={styles["navbar"]}>
         <Navbar />
       </div>
-      <div className={styles["hero"]}>
+      <div className={styles["hero-section"]}>
         <Hero />
       </div>
       <div className={styles["blogs"]}>
