@@ -1,59 +1,44 @@
 .hero {
-  
   display: flex;
   width:100%;
   max-width: 720px;
   min-height: 176px;
-  
-
   gap: 24px;
-
-
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  padding: 0 20px;
+  padding: 10px 20px;
   border:2px solid lime;
-
-
 }
 
 .hero__title{
   width: 100%;
   max-width: 720px;
-
   transform: rotate(0 deg);
   opacity: 1;
   font-family: var(--font-heading);
   font-weight: 200;
   font-style: normal;
   font-size:clamp(18px, 3vw, 24px);
-
-line-height:1.2;
+  line-height:1.2;
   letter-spacing: 0;
   text-align: center;
   color: var(--color-primary);
   margin: 0;
   padding: 0;
-
-
 }
 
 .hero__description{
   width:100%;
   max-width: 620px;
-
-
   font-family: var(--font-body);
   font-weight: 300;
   font-style: normal;
   font-size:clamp(14px, 2vw, 16px);
-line-height:1.2;
+  line-height:1.2;
   letter-spacing: 0;
   text-align: center;
   color: var(--color-primary);
-
 }
 
 .hero__button{
@@ -66,6 +51,5 @@ line-height:1.2;
   border-width: 0.2px;
   padding:8px 16px;
   align-self: center;
-
 }
 

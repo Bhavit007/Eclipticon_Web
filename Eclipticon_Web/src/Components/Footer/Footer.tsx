@@ -37,34 +37,38 @@ const Footer = () => {
             <div className={styles.footer_logo}>
               <Eclipticon />
             </div>
-            <img
-              className={styles.footer_icon}
-              src="./icon/ic-insta.svg"
-              alt="Instagram Icon"
-            />
-            <img
-              className={styles.footer_icon}
-              src="./icon/ic-linkedin.svg"
-              alt="LinkedIn Icon"
-            />
-            <img
-              className={styles.footer_icon}
-              src="./icon/ic-xtwitter.svg"
-              alt="Twitter Icon"
-            />
-            <img
-              className={styles.footer_icon}
-              src="./icon/ic-facebook.svg"
-              alt="Facebook Icon"
-            />
+            <div className={styles.footer_socials}>
+              <img
+                className={styles.footer_icon}
+                src="./icon/ic-insta.svg"
+                alt="Instagram Icon"
+              />
+              <img
+                className={styles.footer_icon}
+                src="./icon/ic-linkedin.svg"
+                alt="LinkedIn Icon"
+              />
+              <img
+                className={styles.footer_icon}
+                src="./icon/ic-xtwitter.svg"
+                alt="Twitter Icon"
+              />
+              <img
+                className={styles.footer_icon}
+                src="./icon/ic-facebook.svg"
+                alt="Facebook Icon"
+              />
+            </div>
           </div>
           <div className={styles.footer_links}>
             {footerLinks.map((link) => (
               <div key={link.id} className={styles.footer_link_column}>
                 <p className={styles.footer_link_title}>{link.title}</p>
-                <a className={styles.footer_link}>{link.a1}</a>
-                <a className={styles.footer_link}>{link.a2}</a>
-                <a className={styles.footer_link}>{link.a3}</a>
+                <div className={styles.footer_link_group}>
+                  <a className={styles.footer_link}>{link.a1}</a>
+                  <a className={styles.footer_link}>{link.a2}</a>
+                  <a className={styles.footer_link}>{link.a3}</a>
+                </div>
               </div>
             ))}
           </div>
