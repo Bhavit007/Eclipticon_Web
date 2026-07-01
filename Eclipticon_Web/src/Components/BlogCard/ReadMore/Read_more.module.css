@@ -15,17 +15,15 @@
 }
 
 .card__rectangle{
-  width: 1;
-  height: 14;
-  transform:rotate(0 deg);
-  opacity: 1;
+  width: 1px;
+  height: 14px;
+  flex-shrink: 0;
   color: var(--color-primary);
   justify-content: flex-start;
 }
 
 .card__link{
-  width: 105px;
-  height: 14px;
+
   font-family: var(--font-heading);
   font-weight: 200;
   font-style: normal;
@@ -34,4 +32,32 @@
   letter-spacing: 0;
   color: var(--color-primary);
   text-align: center;    
+}
+
+@media(max-width: 430px){
+  .card__link-container{
+  width: 96px;
+  height: 20px;
+  border-radius: 72px;
+  padding-top: 4.5px;
+  padding-right: 9px;
+  padding-bottom: 4.5px;
+  gap:7.5px;
+  
+}
+
+.card__rectangle{
+  width: 0.75px;
+  height: 10.5px;
+  flex-shrink: 0;
+  
+}
+
+.card__link{
+  width: 79px;
+  height: 11px;
+  
+  font-size: 9px;
+   
+}
 }

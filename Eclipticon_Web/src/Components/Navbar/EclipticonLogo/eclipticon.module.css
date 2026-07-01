@@ -35,3 +35,26 @@
   opacity: 1;
 
 }
+
+@media (max-width: 430px){
+  
+  .navbar__logo{
+  width: 123.99462890625px;
+  height: 27.03887939453125px;
+
+}
+
+.navbar__logo-text{
+  width: 89px;
+  height: 15px;
+  margin-left: 12.4px;
+  font-size: 13.24px;
+}
+
+
+.navbar__logo-icon{
+  width: 22.596874237060547px;
+  height: 27.03887939453125px;
+
+}
+}

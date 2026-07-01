@@ -12,7 +12,7 @@ const Hero = () => {
         and the small wins (and mistakes) that make great digital products
         possible.
       </p>
-      <div>{Explore_button("Get Started")}</div>
+      <Explore_button text="Get Started" />
     </div>
   );
 };

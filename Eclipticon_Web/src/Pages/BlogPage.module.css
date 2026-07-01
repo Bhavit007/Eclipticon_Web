@@ -1,12 +1,13 @@
 .blog-page{
-  background-image: url('/images/BlogPage-bg.png');
-  background: linear-gradient(180deg, rgba(33, 32, 34, 0.1) 0%, rgba(71, 100, 170, 0.1) 50%, rgba(33, 32, 34, 0.1) 100%);
+  background-image:url("/images/img-bg-blogpage.svg");
+  width: 100%;
+  image-rendering: auto;
   background-repeat: no-repeat;
-  background-size:cover;
-  min-height:100vh;
-
+  background-size: 100% auto;
+  background-position: center top;
+  background-color:var(--color-bg-page);
+  position:relative;
 }
-
 
 .navbar{
   padding: 0;
@@ -14,38 +15,122 @@
 }
 
 .hero-section{
-
-
   margin-top: 140px;
   display:flex;
   justify-content:center;
   width:100%;
   align-items:center;
-
   padding:180px 0px 100px;
-  border:2px solid red;
+}
 
+.mixing-layer{
+  position: absolute;
+  top: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;  
+  /* border:2px solid red; */  
+}
 
-
+.eclipse-image{
+  display: none;
+  width: 100%;
+  justify-content: center;
 }
 
 .blogs{
   display:flex;
   justify-content:center;
-  margin-top: 988px;
-  
-
-
+  margin-top: 432px;
+  background: linear-gradient(180deg, rgba(33, 32, 34, 0.1) 0%, rgba(71, 100, 170, 0.1) 50%, rgba(33, 32, 34, 0.1) 100%);
 }
 
 .footer{
-  display:block;
+  display:flex;
+  width:100%;
   justify-content:center;
+  align-items: center;
   margin-top: 36px;
   padding-bottom: 46px;
+  background-image: url('/images/img-bg-footer.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
+.blob1{
+  display: none;
+}
 
+.blob2{
+  display: none;
+}
 
-  
+@media (max-width: 430px){
+  .blog-page{
+    background-image: url("/images/img-bg-mobile-blogpage.svg");
+    background-size: 100 auto;
+    padding: 0;
+    margin: 0;
+  }
 
+  .footer{
+    display:block;
+    justify-content:center;
+    margin-top: 36px;
+    padding-bottom: 46px;
+    background-image: url('/images/img-bg-mobile-footer.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .blogs{
+    margin-top: 475px;
+    background: none;
+  }
+
+  .hero-section{
+    margin-top: 264px;
+    padding:0;
+  }
+
+  .mixing-layer{
+    top:1186px;
+  }
+
+  .eclipse-image{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    top:724px;  
+  }
+
+  .blob1{
+    display: flex;
+    background: var(--VIVID30, #4764AA4D);
+    width: 94px;
+    height: 195px;
+    position: absolute;
+    right:-46px;
+    top: 1597px;
+    filter: blur(64px);
+    -webkit-filter: blur(64px);
+  }
+
+  .blob2{
+    display: flex;
+    position: absolute;
+    background: var(--VIVID30, #4764AA4D);
+    filter: blur(64px);
+    -webkit-filter: blur(64px);
+    width: 185px;
+    height: 247px;
+    top: 1985px;
+    left: -48px;
+  }
 }

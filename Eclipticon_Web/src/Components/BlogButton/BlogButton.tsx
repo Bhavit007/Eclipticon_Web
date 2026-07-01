@@ -1,13 +1,13 @@
 import styles from "./BlogButton.module.css";
 
-const Button = () => {
+const BlogButton = () => {
   return (
     <div>
-      <button className={styles.button}>
-        <p className={styles.button__text}>blogs</p>
+      <button className={styles["blog-button"]}>
+        <p className={styles["blog-button__text"]}>blogs</p>
       </button>
     </div>
   );
 };
 
-export default Button;
+export default BlogButton;

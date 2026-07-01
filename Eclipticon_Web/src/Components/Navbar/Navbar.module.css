@@ -6,7 +6,6 @@
 
   background: var(--color-background);
   backdrop-filter: blur(15px);
-  border:2px solid blue;
 
 }
 
@@ -24,8 +23,6 @@
   padding-right: 64px;
 
 }
-
-
 
 
 .navbar__links{
@@ -68,7 +65,7 @@
     display:none;
 }
 
-@media (max-width:883px){
+@media (max-width:430px){
 
 .navbar__links{
     display:none;
@@ -79,10 +76,33 @@
     align-items:center;
     justify-content:center;
 
-    width:40px;
-    height:40px;
+    width:24px;
+    height:24px;
 
     cursor:pointer;
 }
+
+.navbar{
+
+
+  background-image: url('/images/img-nav-bg.svg');
+  backdrop-filter: blur(15px);
+  
+}
+
+.navbar__container{
+  max-width: 393px;
+  width: 100%;
+
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 24.74px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+
+
 
 }

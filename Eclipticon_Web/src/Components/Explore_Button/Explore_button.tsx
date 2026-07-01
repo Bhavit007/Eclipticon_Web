@@ -1,15 +1,18 @@
 import styles from "./Explore_button.module.css";
 
-const Explore_button = (text: string) => {
+const Explore_button = ({ text }: { text: string }) => {
   return (
-    <div>
-      <button className={styles.button}>
-        <button className={styles.button__inner}>
-          <p className={styles.button__text}>{text}</p>
-        </button>
-        <img src="/icon/ic-white-right-arrow.svg" />
-      </button>
-    </div>
+    <button className={styles["explore-button"]}>
+      <div className={styles["explore-button__inner"]}>
+        <p className={styles["explore-button__text"]}>{text}</p>
+      </div>
+
+      <img
+        src="/icon/ic-white-right-arrow.svg"
+        alt="Right Arrow"
+        className={styles["explore-button__icon"]}
+      />
+    </button>
   );
 };
 

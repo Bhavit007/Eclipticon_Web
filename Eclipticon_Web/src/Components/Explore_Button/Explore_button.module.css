@@ -1,70 +1,85 @@
-.button{
-  border-radius: 90px;
-  background-color: transparent;
-  border:0.2px solid var(--color-primary);
-  border-width: 0.2px;
-  width: 254.60800170898438px;
+.explore-button {
+  width: 255px;
   height: 48px;
-  padding-left: 8px;
-  padding-right: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  Gap:16px;
+
   display: flex;
-  transform: rotate(0 deg);
-  opacity: 1;
   align-items: center;
+  justify-content: space-between;
+
+  padding: 8px 16px 8px 8px;
+  gap: 16px;
+
+  border: 0.2px solid var(--color-primary);
+  border-radius: 90px;
+
+  background: transparent;
+  cursor: pointer;
 }
 
-.button__inner{
-  border:0.5px solid var(--color-primary);
-  border-radius: 96px;
-  background-color: transparent;
+.explore-button__inner {
   width: 198px;
   height: 32px;
-  border-width: 0.2px;
 
-  border:0.2px solid var(--color-primary);
-  padding-left: 8px;
-  padding-right: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  Gap:10px;
   display: flex;
-  transform: rotate(0 deg);
-  opacity: 1;
+  justify-content: center;
+  align-items: center;
+
+  padding: 8px 16px;
+
+  border: 0.2px solid var(--color-primary);
+  border-radius: 96px;
+
+  background: transparent;
+  box-sizing: border-box;
 }
 
+.explore-button__text {
+  display: block;
 
-
-
-
-
-
-.button__text{
-  color: var(--color-primary);
-  font-weight: 200;
-  width: 166px;
-  height: 16px;
   font-family: var(--font-heading);
   font-size: 14px;
-  text-align: center;
+  font-weight: 200;
   font-style: normal;
+
   line-height: 100%;
   letter-spacing: 0;
+  text-align: center;
 
-  
+  color: var(--color-primary);
 }
 
-.button__arrow{
+.explore-button__arrow {
   width: 16.61px;
   height: 5.62px;
-  align-self: center;
-  color: var(--color-primary);
 
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
+@media (max-width: 430px) {
 
+  .explore-button {
+    width: 145px;
+    height: 36px;
 
+    padding: 4px 8px 4px 4px;
+    gap: 8px;
+  }
 
+  .explore-button__inner {
+    width: 116px;
+    height: 28px;
 
+    padding: 6px 10px;
+  }
+
+  .explore-button__text {
+    font-size: 10px;
+  }
+
+  .explore-button__arrow {
+    width: 9px;
+    height: 4px;
+  }
+
+}
