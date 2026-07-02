@@ -15,7 +15,6 @@
   --blog-section-space-66px:4.125rem; /*66px*/
 }
 
-
 .blog-section{
   position:relative;
   z-index:2;
@@ -26,13 +25,13 @@
   display:block;
 }
 
-.blog-section__title-box{
+.blog-section__header{
   width:100%;
   height:var(--size-28px);
   margin-bottom:var(--space-64px);
 }
 
-.blog-section__title{
+.blog-section__heading{
   font-family:var(--font-heading);
   font-weight:200;
   font-style:normal;
@@ -43,14 +42,14 @@
   color:var(--color-primary);
 }
 
-.blog-section__cards{
+.blog-section__list{
   width:100%;
   display:flex;
   flex-direction:column;
   gap:var(--space-24px);
 }
 
-.blog-section__card{
+.blog-section__item{
   width:100%;
   display:flex;
   gap:var(--space-64px);
@@ -59,14 +58,14 @@
   border-bottom:1px solid var(--color-background-dark);
 }
 
-.blog-section__card-image{
+.blog-section__image{
   max-width:var(--blog-section-size-320px);
   width:100%;
   height:auto;
   border-radius:var(--size-10px);
 }
 
-.blog-section__card-content{
+.blog-section__content{
   max-width:var(--blog-section-size-522px);
   width:100%;
   height:var(--blog-section-size-241px);
@@ -75,7 +74,11 @@
   justify-content:space-between;
 }
 
-.blog-section__card-date{
+.blog-section__text{
+  width:100%;
+}
+
+.blog-section__date{
   width:auto;
   height:auto;
   color:var(--LACE50,#F7F5EE80);
@@ -88,7 +91,7 @@
   margin-bottom:var(--space-24px);
 }
 
-.blog-section__card-heading{
+.blog-section__item-heading{
   width:100%;
   height:auto;
   border-width:0.3px;
@@ -103,7 +106,7 @@
   margin-bottom:var(--space-16px);
 }
 
-.blog-section__card-description{
+.blog-section__item-description{
   width:100%;
   height:auto;
   font-family:var(--font-body);
@@ -117,7 +120,7 @@
   margin-bottom:var(--blog-section-space-66px);
 }
 
-.blog-section__card-read-more-button{
+.blog-section__actions{
   width:var(--blog-section-size-128px);
   height:auto;
   gap:var(--space-10px);
@@ -143,13 +146,13 @@
     display:block;
   }
 
-  .blog-section__title-box{
+  .blog-section__header{
     width:100%;
     height:auto;
     margin-bottom:var(--space-64px);
   }
 
-  .blog-section__title{
+  .blog-section__heading{
     font-family:var(--font-heading)!important;
     font-weight:200!important;
     font-style:normal!important;
@@ -160,13 +163,13 @@
     color:var(--color-primary)!important;
   }
 
-  .blog-sections__cards{
+  .blog-section__list{
     width:100%;
     height:auto;
     gap:var(--space-16px);
   }
 
-  .blog-section__card{
+  .blog-section__item{
     width:100%;
     height:auto;
     display:flex;
@@ -180,7 +183,7 @@
     margin-bottom:var(--space-16px);
   }
 
-  .blog-section__card-image{
+  .blog-section__image{
     width:100%;
     height:var(--blog-section-size-200px);
     object-fit:cover;
@@ -188,7 +191,7 @@
     margin-bottom:var(--space-24px);
   }
 
-  .blog-section__card-content{
+  .blog-section__content{
     max-width:var(--blog-section-size-320px);
     width:100%;
     min-height:var(--blog-section-size-241px);
@@ -197,7 +200,11 @@
     justify-content:flex-start;
   }
 
-  .blog-section__card-date{
+  .blog-section__text{
+    width:100%;
+  }
+
+  .blog-section__date{
     width:auto;
     height:auto;
     font-size:var(--size-14px);
@@ -206,7 +213,7 @@
     margin-bottom:var(--space-24px);
   }
 
-  .blog-section__card-heading{
+  .blog-section__item-heading{
     width:100%;
     height:auto;
     font-size:var(--size-14px);
@@ -214,7 +221,7 @@
     margin-bottom:var(--space-12px);
   }
 
-  .blog-section__card-description{
+  .blog-section__item-description{
     width:100%;
     height:auto;
     font-size:var(--blog-section-size-13px);
@@ -224,7 +231,7 @@
     margin-bottom:0;
   }
 
-  .blog-section__card-read-more-button{
+  .blog-section__actions{
     width:var(--blog-section-size-128px);
     height:auto;
     gap:var(--space-10px);
@@ -232,7 +239,7 @@
     margin-bottom:0;
   }
 
-  .blog-section__go-to-top-box{
+  .blog-section__go-to-top{
     width:var(--blog-section-size-57px);
     height:auto;
     display:none;
@@ -241,10 +248,11 @@
   .blog-section__go-to-top-button{
     width:var(--blog-section-size-32px);
     height:var(--blog-section-size-32px);
-    top:38rem; /*608px*/
-    left:0.8125rem; /*13px*/
+    top:38rem;
+    left:0.8125rem;
     border-width:var(--blog-section-size-1-1px);
     border-radius:50%;
     display:none;
   }
+
 }

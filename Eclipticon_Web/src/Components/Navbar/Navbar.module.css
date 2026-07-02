@@ -5,20 +5,21 @@
   --navbar-blur-15px:0.9375rem; /*15px*/
 
   display:flex;
-  width:100%;
   justify-content:center;
+
+  width:100%;
 
   background:var(--color-background);
   backdrop-filter:blur(var(--navbar-blur-15px));
 }
 
-.navbar-container{
-  max-width:var(--navbar-size-1150px);
-  width:100%;
-
+.navbar__container{
   display:flex;
   justify-content:space-between;
   align-items:center;
+
+  width:100%;
+  max-width:var(--navbar-size-1150px);
 
   margin-top:var(--space-30px);
   margin-bottom:var(--navbar-size-24-74px);
@@ -27,20 +28,29 @@
   padding-right:var(--space-64px);
 }
 
-.navbar-container__links{
+.navbar__logo{
   display:flex;
-  flex-direction:row;
+  align-items:center;
+}
+
+.navbar__navigation{
+  display:flex;
   align-items:center;
 
   gap:var(--space-36px);
 
   list-style:none;
-  padding:0;
   margin:0;
+  padding:0;
 }
 
-.navbar-container__links-link{
+.navbar__item{
+  list-style:none;
+}
+
+.navbar__link{
   display:flex;
+  align-items:center;
 
   font-family:var(--font-body);
   font-weight:400;
@@ -53,52 +63,64 @@
   color:var(--color-primary);
 }
 
-.navbar-container_links-link-resource-arrow{
+.navbar__link-icon{
   width:var(--size-12px);
   height:var(--size-14px);
 
-  opacity:1;
-
   margin-left:var(--space-8px);
+
+  opacity:1;
 }
 
-.navbar-container__menuButton{
+.navbar__menu-button{
   display:none;
+
+  background:none;
+  border:none;
+  padding:0;
+  cursor:pointer;
+}
+
+.navbar__menu-button img{
+  width:100%;
+  height:100%;
+  display:block;
 }
 
 @media (max-width:430px){
 
-  .navbar-container__links{
+  .navbar__navigation{
     display:none;
   }
 
-  .navbar-container__menuButton{
+  .navbar__menu-button{
     display:flex;
-    align-items:center;
     justify-content:center;
+    align-items:center;
 
     width:var(--size-24px);
     height:var(--size-24px);
-
-    cursor:pointer;
   }
 
   .navbar{
-    background-image:url('/images/img-nav-bg.svg');
+    background-image:url("/images/img-nav-bg.svg");
     backdrop-filter:blur(var(--navbar-blur-15px));
   }
 
-  .navbar-container{
-    max-width:var(--navbar-size-393px);
+  .navbar__container{
     width:100%;
-
-    align-items:center;
+    max-width:var(--navbar-size-393px);
 
     margin-top:var(--space-30px);
     margin-bottom:var(--navbar-size-24-74px);
 
     padding-left:var(--space-30px);
     padding-right:var(--space-30px);
+  }
+
+  .navbar__logo{
+    display:flex;
+    align-items:center;
   }
 
 }

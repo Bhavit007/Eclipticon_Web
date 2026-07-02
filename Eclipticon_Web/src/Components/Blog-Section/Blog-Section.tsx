@@ -19,7 +19,7 @@ const Blogs = () => {
       heading:
         "Inside Frenley: Designing a Dating App That Doesn't Feel Like a Game",
       description:
-        "We didn’t just build another swipe app — we reimagined how people connect. Here’s how we approached design, trust, and UX to make Frenley more human..",
+        "We didn’t just build another swipe app — we reimagined how people connect. Here’s how we approached design, trust, and UX to make Frenley more human.",
     },
     {
       id: 3,
@@ -34,26 +34,31 @@ const Blogs = () => {
 
   return (
     <div className={styles["blog-section"]}>
-      <div className={styles["blog-section__title-box"]}>
-        <h1 className={styles["blog-section__title"]}>Recent Blogs</h1>
+      <div className={styles["blog-section__header"]}>
+        <h1 className={styles["blog-section__heading"]}>Recent Blogs</h1>
       </div>
-      <div className={styles["blog-section__cards"]}>
+
+      <div className={styles["blog-section__list"]}>
         {blogData.map((blog) => (
-          <div className={styles["blog-section__card"]} key={blog.id}>
-            <div className={styles["blog-section__card-image"]}>
+          <div key={blog.id} className={styles["blog-section__item"]}>
+            <div className={styles["blog-section__image"]}>
               <img src={blog.img} alt="Blog Image" />
             </div>
-            <div className={styles["blog-section__card-content"]}>
-              <div className={styles["blog-section__card-text"]}>
-                <p className={styles["blog-section__card-date"]}>{blog.date}</p>
-                <h1 className={styles["blog-section__card-heading"]}>
+
+            <div className={styles["blog-section__content"]}>
+              <div className={styles["blog-section__text"]}>
+                <p className={styles["blog-section__date"]}>{blog.date}</p>
+
+                <h1 className={styles["blog-section__item-heading"]}>
                   {blog.heading}
                 </h1>
-                <p className={styles["blog-section__card-description"]}>
+
+                <p className={styles["blog-section__item-description"]}>
                   {blog.description}
                 </p>
               </div>
-              <div className={styles["blog-section__card-read-more-button"]}>
+
+              <div className={styles["blog-section__actions"]}>
                 <Read_more />
               </div>
             </div>
