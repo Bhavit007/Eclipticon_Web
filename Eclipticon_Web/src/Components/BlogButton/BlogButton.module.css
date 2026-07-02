@@ -1,64 +1,61 @@
 .blog-button{
+  --blog-button-size-96px:6rem; /*96px*/
+  --blog-button-size-83px:5.1875rem; /*83px*/
+  --blog-button-size-74px:4.625rem; /*74px*/
+  --blog-button-size-59px:3.6875rem; /*59px*/
+  --blog-button-size-50px:3.125rem; /*50px*/
+  --blog-button-size-26px:1.625rem; /*26px*/
+  --blog-button-size-24px:1.5rem; /*24px*/
+  --blog-button-size-14px:0.875rem; /*14px*/
+  --blog-button-size-12px:0.75rem; /*12px*/
+  --blog-button-size-10px:0.625rem; /*10px*/
+  --blog-button-border-05px:0.03125rem; /*0.5px*/
 
-  padding-top: 6px;
-  padding-right: 12px;
-  padding-bottom: 6px;
-  padding-left: 12px;
-  border-radius: 96px;
-  border:0.5px solid var(--color-primary);
-  width: 74px;
-  height: 26px;
-  background-color: transparent;
-  border-width: 0.5px;
-  display: flex;
-  opacity: 1;
-  transform: rotate(0deg);
-  gap: 10px;
-  
+  padding-top:var(--space-6px);
+  padding-right:var(--space-12px);
+  padding-bottom:var(--space-6px);
+  padding-left:var(--space-12px);
+
+  border-radius:var(--blog-button-size-96px);
+  border:var(--blog-button-border-05px) solid var(--color-primary);
+
+  width:var(--blog-button-size-74px);
+  height:var(--blog-button-size-26px);
+
+  background-color:transparent;
+  display:flex;
+  opacity:1;
+  transform:rotate(0deg);
+  gap:var(--space-10px);
 }
 
 .blog-button__text{
-  color: var(--color-primary);
-  width: 50px;
-  height: 14px;
-  font-family: var(--font-heading);
-  font-weight: 200;
-  font-size: 12px;
-  font-style: normal;
-  line-height: 100%;
-  letter-spacing: 0;
-  text-align: center;
+  color:var(--color-primary);
+  width:var(--blog-button-size-50px);
+  height:var(--blog-button-size-14px);
 
+  font-family:var(--font-heading);
+  font-weight:200;
+  font-style:normal;
+  font-size:var(--blog-button-size-12px);
+  line-height:100%;
+  letter-spacing:0;
+  text-align:center;
 }
 
-@media(max-width: 430px){
+@media (max-width:430px){
+
   .blog-button{
+    padding:var(--space-6px) var(--space-12px);
+    width:var(--blog-button-size-83px);
+    height:var(--blog-button-size-24px);
+    background-color:transparent;
+  }
 
-    padding: 6px 12px;
-  width: 83px;
-  height: 24px;
-  background-color: transparent;
-
-
-
-  
-}
-
-.blog-button__text{
-  
-  width: 59px;
-  height: 12px;
-  
-
-  font-size: 10px;
-
+  .blog-button__text{
+    width:var(--blog-button-size-59px);
+    height:var(--blog-button-size-12px);
+    font-size:var(--blog-button-size-10px);
+  }
 
 }
-}
-
-
-
-
-
-
-

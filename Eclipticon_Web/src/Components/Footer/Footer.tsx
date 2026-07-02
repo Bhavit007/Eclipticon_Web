@@ -28,46 +28,63 @@ const Footer = () => {
 
   return (
     <div className={styles.footer}>
-      <div className={styles.footer_box}>
-        <div className={styles.footer_title}>
-          <h1 className={styles.footer_heading}>Build Epic</h1>
+      <div className={styles["footer-box"]}>
+        <div className={styles["footer-box-title-box"]}>
+          <h1 className={styles["footer-box-title-box__heading"]}>
+            Build Epic
+          </h1>
         </div>
-        <div className={styles.footer_content}>
-          <div className={styles.footer_icons}>
-            <div className={styles.footer_logo}>
+
+        <div className={styles["footer-box-content"]}>
+          <div className={styles["footer-box-content__icons"]}>
+            <div className={styles["footer-icons__logo"]}>
               <Eclipticon />
             </div>
-            <div className={styles.footer_socials}>
+
+            <div className={styles["footer-icons__icon-socials"]}>
               <img
-                className={styles.footer_icon}
+                className={styles["footer-icons__icon"]}
                 src="./icon/ic-insta.svg"
                 alt="Instagram Icon"
               />
               <img
-                className={styles.footer_icon}
+                className={styles["footer-icons__icon"]}
                 src="./icon/ic-linkedin.svg"
                 alt="LinkedIn Icon"
               />
               <img
-                className={styles.footer_icon}
+                className={styles["footer-icons__icon"]}
                 src="./icon/ic-xtwitter.svg"
                 alt="Twitter Icon"
               />
               <img
-                className={styles.footer_icon}
+                className={styles["footer-icons__icon"]}
                 src="./icon/ic-facebook.svg"
                 alt="Facebook Icon"
               />
             </div>
           </div>
-          <div className={styles.footer_links}>
+
+          <div className={styles["footer-box-content__links"]}>
             {footerLinks.map((link) => (
-              <div key={link.id} className={styles.footer_link_column}>
-                <p className={styles.footer_link_title}>{link.title}</p>
-                <div className={styles.footer_link_group}>
-                  <a className={styles.footer_link}>{link.a1}</a>
-                  <a className={styles.footer_link}>{link.a2}</a>
-                  <a className={styles.footer_link}>{link.a3}</a>
+              <div
+                key={link.id}
+                className={styles["footer-box-content__link-column"]}
+              >
+                <p className={styles["footer-box-content__link-column-title"]}>
+                  {link.title}
+                </p>
+
+                <div className={styles["footer-box-content__link-group"]}>
+                  <a className={styles["footer-box-content__link-column-link"]}>
+                    {link.a1}
+                  </a>
+                  <a className={styles["footer-box-content__link-column-link"]}>
+                    {link.a2}
+                  </a>
+                  <a className={styles["footer-box-content__link-column-link"]}>
+                    {link.a3}
+                  </a>
                 </div>
               </div>
             ))}

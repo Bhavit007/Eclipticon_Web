@@ -56,7 +56,16 @@
   --space-120px: 7.5rem; /* 120px */
   --space-140px: 8.75rem; /* 140px */
   --space-144px: 9rem; /* 144px */
- 
+  --space-66px: 4.125rem;
+  --space-90px: 5.625rem;
+  --space-165px: 10.3125rem;
+  --space-167px: 10.4375rem;
+  --space-168px: 10.5rem;
+  
+
+
+
+
   /* Size scale */
   --size-2px: 0.125rem; /* 2px */
   --size-4px: 0.25rem; /* 4px */
@@ -97,8 +106,14 @@
   --size-200px: 12.5rem;
   --size-1280px: 80rem; /* 1280px */
   --size-1440px: 90rem;
- 
-
+  --size-57px: 3.5625rem;
+  --size-96px: 6rem;
+  --size-128px: 8rem;
+  --size-18px:1.125rem; /*18px*/
+  --size-388px:24.25rem; /*388px*/
+  --size-42px:2.625rem;   /*42px*/
+  --size-57px:3.5625rem;  /*57px*/
+  --size-84px:5.25rem;    /*84px*/
  
 
 

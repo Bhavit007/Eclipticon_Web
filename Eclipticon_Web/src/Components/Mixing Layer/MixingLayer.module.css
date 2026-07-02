@@ -1,24 +1,27 @@
 .Mixing-layer{
-    width: 100%;
-    
-    height: 388px;
+  --mixing-layer-size-388px:24.25rem; /*388px*/
 
-    background: linear-gradient(
-        to top,
-        rgba(33,32,34,0) 18%,
-        #212022 42%
-    );
-    padding: 0;
-    /* border:2px solid red; */
-    
+  width:100%;
+  height:var(--mixing-layer-size-388px);
+
+  background:linear-gradient(
+    to top,
+    rgba(33,32,34,0) 18%,
+    #212022 42%
+  );
+
+  padding:0;
+  /* border:2px solid red; */
 }
 
-@media(max-width: 430px){
+@media(max-width:430px){
+
   .Mixing-layer{
-    background: linear-gradient(to bottom, rgba(33, 32, 34, 0) 19.82%, #212022 43.33%);
-    
-
-
+    background:linear-gradient(
+      to bottom,
+      rgba(33,32,34,0) 19.82%,
+      #212022 43.33%
+    );
   }
-}
 
+}

@@ -1,85 +1,102 @@
-.explore-button {
-  width: 255px;
-  height: 48px;
+.explore-button{
+  --explore-button-size-255px:15.9375rem; /*255px*/
+  --explore-button-size-198px:12.375rem; /*198px*/
+  --explore-button-size-145px:9.0625rem; /*145px*/
+  --explore-button-size-116px:7.25rem; /*116px*/
+  --explore-button-size-96px:6rem; /*96px*/
+  --explore-button-size-90px:5.625rem; /*90px*/
+  --explore-button-size-48px:3rem; /*48px*/
+  --explore-button-size-36px:2.25rem; /*36px*/
+  --explore-button-size-32px:2rem; /*32px*/
+  --explore-button-size-28px:1.75rem; /*28px*/
+  --explore-button-size-16-61px:1.038125rem; /*16.61px*/
+  --explore-button-size-9px:0.5625rem; /*9px*/
+  --explore-button-size-5-62px:0.35125rem; /*5.62px*/
+  --explore-button-size-4px:0.25rem; /*4px*/
+  --explore-button-size-05px:0.0125rem; /*0.2px*/
+  --explore-button-size-4px-height:0.25rem; /*4px*/
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  width:var(--explore-button-size-255px);
+  height:var(--explore-button-size-48px);
 
-  padding: 8px 16px 8px 8px;
-  gap: 16px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 
-  border: 0.2px solid var(--color-primary);
-  border-radius: 90px;
+  padding:var(--space-8px) var(--space-16px) var(--space-8px) var(--space-8px);
+  gap:var(--space-16px);
 
-  background: transparent;
-  cursor: pointer;
+  border:var(--explore-button-size-05px) solid var(--color-primary);
+  border-radius:var(--explore-button-size-90px);
+
+  background:transparent;
+  cursor:pointer;
 }
 
-.explore-button__inner {
-  width: 198px;
-  height: 32px;
+.explore-button__inner{
+  width:var(--explore-button-size-198px);
+  height:var(--explore-button-size-32px);
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 
-  padding: 8px 16px;
+  padding:var(--space-8px) var(--space-16px);
 
-  border: 0.2px solid var(--color-primary);
-  border-radius: 96px;
+  border:var(--explore-button-size-05px) solid var(--color-primary);
+  border-radius:var(--explore-button-size-96px);
 
-  background: transparent;
-  box-sizing: border-box;
+  background:transparent;
+  box-sizing:border-box;
 }
 
-.explore-button__text {
-  display: block;
+.explore-button__text{
+  display:block;
 
-  font-family: var(--font-heading);
-  font-size: 14px;
-  font-weight: 200;
-  font-style: normal;
+  font-family:var(--font-heading);
+  font-size:var(--size-14px);
+  font-weight:200;
+  font-style:normal;
 
-  line-height: 100%;
-  letter-spacing: 0;
-  text-align: center;
+  line-height:100%;
+  letter-spacing:0;
+  text-align:center;
 
-  color: var(--color-primary);
+  color:var(--color-primary);
 }
 
-.explore-button__arrow {
-  width: 16.61px;
-  height: 5.62px;
+.explore-button__arrow{
+  width:var(--explore-button-size-16-61px);
+  height:var(--explore-button-size-5-62px);
 
-  object-fit: contain;
-  flex-shrink: 0;
+  object-fit:contain;
+  flex-shrink:0;
 }
 
-@media (max-width: 430px) {
+@media (max-width:430px){
 
-  .explore-button {
-    width: 145px;
-    height: 36px;
+  .explore-button{
+    width:var(--explore-button-size-145px);
+    height:var(--explore-button-size-36px);
 
-    padding: 4px 8px 4px 4px;
-    gap: 8px;
+    padding:var(--space-4px) var(--space-8px) var(--space-4px) var(--space-4px);
+    gap:var(--space-8px);
   }
 
-  .explore-button__inner {
-    width: 116px;
-    height: 28px;
+  .explore-button__inner{
+    width:var(--explore-button-size-116px);
+    height:var(--explore-button-size-28px);
 
-    padding: 6px 10px;
+    padding:var(--space-6px) var(--space-10px);
   }
 
-  .explore-button__text {
-    font-size: 10px;
+  .explore-button__text{
+    font-size:var(--size-10px);
   }
 
-  .explore-button__arrow {
-    width: 9px;
-    height: 4px;
+  .explore-button__arrow{
+    width:var(--explore-button-size-9px);
+    height:var(--space-4px);
   }
 
 }
